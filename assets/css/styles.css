@@ -1,0 +1,51 @@
+/* reset */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #072AC8;
+}
+
+.light-blue {
+    color: #a2d6f9;
+}
+
+.blue2 {
+    color: #0082f3;
+}
+
+.grey {
+    color: #292E47;
+}
+
+.medium-grey {
+    color: #514D67;
+}
+
+.light-grey {
+    color: #6B708D;
+}
+
+.yellow {
+    color: #FFC600;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+body {
+    background-color: #F2F4FC;
+}
