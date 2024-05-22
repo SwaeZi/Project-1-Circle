@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
+    <title>Contact Page - Circle Agency</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Your description goes here. This is a brief description of your website or webpage, containing important keywords." />
+    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <!-- CSS Inyection -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- TO add the script tag + defer attribute to load script file after the html is parsed on the webpage -->
+    <script src="./assets/js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <div class="sub-container">
+                <div class="logo-box">
+                    <img class="image-logo"
+                        src="assests/images/logos/circle.svg" />
+                </div>
+                <nav id="hamburger">
+                    <input type="checkbox" id="menu" />
+                    <label for="menu">
+                        <div class="icon">
+                            <hr>
+                            <hr>
+                            <hr>
+                        </div>
+                    </label>
+                    <ul>
+                        <li>Home</li>
+                        <li>Projects</li>
+                        <li>Services</li>
+                    </ul>
+                </nav>
+                <div class="visible">
+                    <a class="blue-btn" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="form">
+        <div class="container-form">
+            <h1 class="grey">Contact Us</h1>
+            <div class="box">
+                <form action="/some-url" id="monicas-form">
+                    <div class="form-section">
+                        <label for="name">Full Name*</label><br />
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="pair">
+                        <div class="form-section">
+                            <label for="email">Email</label><br />
+                            <input type="email" id="email" placeholder="Enter your email" required />
+                        </div>
+                        <div class="form-section">
+                            <label for="phone">Phone</label><br />
+                            <input type="number" id="phone" placeholder="Enter your phone" required />
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <label for="message">Message</label><br />
+                        <textarea id="message" name="message" rows="4" cols="21" placeholder="Write your message here"
+                            required></textarea>
+                    </div>
+                    <div class="form-section">
+                        <button class="button-blue" type="submit">Submit</button>
+                    </div>
+                    <div id="message3"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="box3">
+            <img class="image-logo" src="assests/images/logos/circle.svg" />
+            <address class="light-grey">
+                2972 Westheimer Rd. Santa Ana,<br />Illinois 85486
+            </address>
+        </div>
+        <div class="tags-grid">
+            <div class="tags-item"><a href="#" class="button-learn">Team</a></div>
+            <div class="tags-item">
+                <a href="index.html#services" class="button-learn">Services</a>
+            </div>
+            <div class="tags-item">
+                <a href="#" class="button-learn">About us</a>
+            </div>
+            <div class="tags-item">
+                <a href="index.html#clients-opinion" class="button-learn">Press</a></div>
+            <div class="tags-item">
+                <a href="index.html#recent-projects" class="button-learn">Projects</a>
+            </div>
+            <div class="tags-item">
+                <a href="#" class="button-learn">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
