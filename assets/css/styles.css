@@ -71,6 +71,7 @@ h6 {
     font-weight: var(--font-weight-h6);
 }
 
+
 @media only screen and (max-width: 902px) {
 
     .super-container {
@@ -211,11 +212,11 @@ h6 {
         margin: 0;
     }
 
-
-
     .two-buttons {
         display: flex;
         align-content: center;
+        margin-left: 50%;
+        margin-right: 50%;
         margin-top: 50px;
         font-size: 17px;
         font-weight: 500;
@@ -286,7 +287,6 @@ h6 {
         display: flex;
         flex-direction: column;
         gap: 1vh;
-        /* border: 1px solid red; */
     }
 
     .newsletter-section {
@@ -309,67 +309,80 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
     }
 
+    #message2 {
+        height: 40px;
+        padding: 15px 30px;
+        background-color: #ffa2a26a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     /* Testemonials section*/
 
-    #opinions {
-        margin-bottom: 8vh;
-        height: 50vh;
-        padding: 5vh 0;
-        position: relative;
-        background-color: #292E47;
-        background-image: url(assets/images/testemonial-section/orbit.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+   #opinions {
+       margin-bottom: 8vh;
+       height: 50vh;
+       padding: 5vh 0;
+       position: relative;
+       background-color: #292E47;
+       background-image: url(assets/images/testemonial-section/orbit.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
 
-    #opinions h3 {
-        margin-top: 6vh;
-        margin-bottom: 6vh;
-    }
+   #opinions h3 {
+       margin-top: 6vh;
+       margin-bottom: 6vh;
+       text-align: center;
+   }
 
-    .disposition {
-        width: 100vw;
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-    }
+   .mmemojis {
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+       /* Adjust the gap as needed */
+   }
 
+   .personal-opinion {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       line-height: 5vh;
+       width: 80vw;
+       align-items: center;
+       justify-content: space-around;
+   }
 
-    .profile-pic {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
+   .profile-pic {
+       max-width: 50px;
+       max-height: 50px;
+       border-radius: 50%;
+       object-fit: cover;
+   }
 
-    .personal-opinion {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        line-height: 5vh;
-        width: 80vw;
-        align-items: center;
-        justify-content: space-around;
-    }
+   .card {
+       display: flex;
+       gap: 20px;
+       align-items: center;
+       justify-content: center;
+       /* Center the content horizontally */
+   }
 
-    .card {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-
-    }
-
-    .card-texts {
-        text-align: left;
-        line-height: 30px;
-    }
+   .card-texts {
+       text-align: left;
+       line-height: 30px;
+   }
 
 
     /* Our Services section */
@@ -716,93 +729,106 @@ h6 {
         background-color: #FFFFFF;
     }
 
-    /* Testemonials section */
-
-    #opinions {
-        margin-top: 8%;
-        margin-bottom: 8%;
-        position: relative;
-        background-color: #292E47;
-        background-image: url("assets/images/testemonial-section/orbi.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        max-width: 1200px;
-        margin-right: auto;
-        margin-left: auto;
-        height: 620px;
+    #messageError {
+        height: 40px;
+        padding: 15px 30px;
+        background-color: #ffa2a26a;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    #opinions img {
-        width: 14%;
-    }
-
-    .disposition {
-        justify-items: flex-end;
-        width: 70%;
-        height: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .memoji1 {
-        position: absolute;
-        top: 50px;
-        left: 60px;
-    }
-
-    .memoji2 {
-        position: absolute;
-        top: 50px;
-        right: 60px;
-    }
-
-    .memoji3 {
-        position: absolute;
-        bottom: 50px;
-        right: 60px;
-    }
-
-    .memoji4 {
-        position: absolute;
-        bottom: 50px;
-        left: 60px;
-    }
-
-    .profile-pic {
-        width: 50px;
-        height: auto;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .personal-opinion {
-        display: flex;
-        flex-direction: column;
         text-align: center;
-        line-height: 40px;
-        width: 80%;
-        height: 100%;
-        align-items: center;
-        justify-content: space-around;
+        margin-bottom: 10%;
     }
 
-    .card {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .card-texts {
-        text-align: left;
-        line-height: 20px;
-    }
-
+    /* Testemonials section */
+    	#opinions {
+    	    margin-bottom: 8%;
+    	    position: relative;
+    	    background-color: #292E47;
+    	    background-image: url("https://res.cloudinary.com/dmcofgm8p/image/upload/v1658237000/Midproject_Images/Orbit_uw90mo.png");
+    	    background-position: center;
+    	    background-repeat: no-repeat;
+    	    background-size: cover;
+    	    max-width: 1300px;
+    	    margin-right: auto;
+    	    margin-left: auto;
+    	    height: 622px;
+    	    display: flex;
+    	    justify-content: center;
+    	    align-items: center;
+    	}
+    
+    	#opinions h3 {
+    	    margin-top: 6vh;
+    	    margin-bottom: 6vh;
+    	}
+    
+    	.memojis {
+    	    justify-items: flex-end;
+    	    width: 80%;
+    	    height: 100%;
+    	    display: flex;
+    	    justify-content: center;
+    	    align-items: center;
+    	}
+        .memoji1, .memoji2, .memoji3, .memoji4 {
+            width: 200px;
+        }
+    
+    	.memoji1 {
+    	    position: absolute;
+    	    top: 50px;
+    	    left: 60px;
+            width: 150px;
+    	}
+    
+    	.memoji2 {
+    	    position: absolute;
+    	    top: 50px;
+    	    right: 60px;
+    	}
+    
+    	.memoji3 {
+    	    position: absolute;
+    	    bottom: 50px;
+    	    right: 60px;
+    	}
+    
+    	.memoji4 {
+    	    position: absolute;
+    	    bottom: 50px;
+    	    left: 60px;
+    	}
+    
+    	.profile-pic {
+    	    max-width: 80px;
+    	    max-height: 80px;
+            border-radius: 50%;
+    	}
+    
+    	.personal-opinion {
+    	    display: flex;
+    	    flex-direction: column;
+    	    text-align: center;
+    	    line-height: 50px;
+    	    width: 80%;
+    	    height: 100%;
+    	    align-items: center;
+    	    justify-content: space-around;
+            margin-top: 10%;
+    	}
+    
+    	.card {
+    	    display: flex;
+    	    gap: 10px;
+    	    align-items: center;
+            margin-bottom: 10%;
+    	}
+    
+    	.card-texts {
+    	    text-align: left;
+    	    line-height: 20px;
+    	}
 
     /*Services section*/
 
