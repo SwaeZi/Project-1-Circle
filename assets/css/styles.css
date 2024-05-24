@@ -103,7 +103,7 @@ h6 {
         font-weight: 400;
     }
 
-    
+
 
     /* Header Section */
 
@@ -210,8 +210,8 @@ h6 {
         gap: 2vh;
         margin: 0;
     }
-    
-    
+
+
 
     .two-buttons {
         display: flex;
@@ -295,23 +295,12 @@ h6 {
         flex-direction: column;
     }
 
-    .grey { 
-
-    }
-    #recent-projects h3 {
+    #recent-projects h3,
+    h5,
+    a {
         margin-left: 8vw;
         margin-top: 5vw;
-    }
-
-    #recent-projects h5 {
-        margin-left: 8vw;
-        margin-top: 1vw;
-    }
-
-    #recent-projects a {
-        margin-left: 8vw;
-        margin-top: 5vw;
-        margin-bottom: 8vw;
+        margin-bottom: 5vw;
     }
 
     .width {
@@ -322,8 +311,6 @@ h6 {
         justify-content: space-between;
 
     }
-    
-
 
 
     /* Testemonials section*/
@@ -517,6 +504,12 @@ h6 {
         gap: 50% 20%;
     }
 
+    .tags-item a {
+        white-space: nowrap;
+        text-decoration: none;
+        color: #514D67;
+    }
+
 }
 
 /* Desktop/Tablet/Laptop Screens */
@@ -679,46 +672,50 @@ h6 {
 
     /* Recent projects Sectiion */
 
-#recent-projects {
-    margin-bottom: 8%;
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
+    #recent-projects {
+        margin-bottom: 8%;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
 
-.horizontal {
-    margin-top: 5%;
-    display: flex;
-    gap: 40px;
-}
+    .horizontal {
+        margin-top: 5%;
+        display: flex;
+        gap: 40px;
+    }
 
-.newsletter-section {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-}
+    .newsletter-section {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    }
 
-.grey { 
-    margin-left: 5px;
-}
+    .grey {
+        margin-left: 5px;
+    }
 
-#recent-projects h3, h5, a {
-    margin: 10% 10% 10% 10%;
-}
+    #recent-projects h3,
+    h5,
+    a {
+        margin: 10% 10% 10% 10%;
+    }
 
-.projects-image {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-.box-section {
-    flex: 1;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-}
+    .projects-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .box-section {
+        flex: 1;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+
     /* Testemonials section */
 
     #opinions {
@@ -739,7 +736,7 @@ h6 {
         align-items: center;
     }
 
-    #opinions img { 
+    #opinions img {
         width: 14%;
     }
 
@@ -967,4 +964,9 @@ h6 {
         gap: 50% 5%;
     }
 
+    .tags-item a {
+        white-space: nowrap;
+        text-decoration: none;
+        color: #514D67;
+    }
 }

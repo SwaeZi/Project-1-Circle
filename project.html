@@ -12,19 +12,19 @@
         content="Your description goes here. This is a brief description of your website or webpage, containing important keywords." />
     <meta name="keywords" content="keyword1, keyword2, keyword3" />
     <!-- CSS Inyection -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/project-style.css" />
     <!-- TO add the script tag + defer attribute to load script file after the html is parsed on the webpage -->
     <script src="./assets/js/project.js" defer></script>
 </head>
 <body>
     <header>
         <div class="header container">
-            <div class="sub-container">
-                <div class="logo">
-                    <img class="logo" src="assests/images/logos/circle.svg" alt="circle agency logo">
+            <div class="menu-container">
+                <div class="logo-container">
+                    <img class="logo" src="assets/images/logos/circle.svg" alt="circle agency logo">
                 </div>
                 <nav id="hamburger">
-                    <input type="checkbox" id="menu">
+                    <input type="checknewsletter-section" id="menu">
                     <label for="menu">
                         <div class="icon">
                             <hr>
@@ -32,7 +32,7 @@
                             <hr>
                         </div>
                     </label>
-                    <ul>
+                    <ul class="list">
                         <li>Home</li>
                         <li>Projects</li>
                         <li>Services</li>
@@ -55,17 +55,18 @@
     							<h4 class="light-grey">Completed on June 22, 2021</h4>
     						</div>
     					</div>
-    					<div class="box-project">
-                            <img src="assests/images/projects-section/1.jpg" alt="">
+    					<div class="newsletter-section-project">
+                            <img class="hero-image" src="assets/images/projects-section/1.jpg" alt="">
     						<div class="background"></div>
-    						<p class="grey">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum
+    						<p class="description">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum
                             minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua
                             id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
                             tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id
                             fugiat nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse pariatur duis
                             deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate
                             aute id deserunt nisi.
-                            
+                            <br>
+                            <br>
                             Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum
                             minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua
                             id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat
@@ -81,29 +82,29 @@
         <div class="vertical-container">
             <h2 class="grey">Other Projects</h2>
             <div class="vertical-container horizontal projects">
-                <article class="box-section">
-                    <img src="assests/images/projects-section/4.jpg"
+                <article class="newsletter-section">
+                    <img class="projects-image" src="assets/images/projects-section/4.jpg"
                         alt="simplify">
                     <div class="fill">
-                        <h3 class="gray">Orbit</h3>
+                        <h3 class="grey">Orbit</h3>
                         <h5>UI Design</h5>
                     </div>
                     <a href="project.html" class="button-learn blue">Learn More</a>
                 </article>
-                <article class="box-section">
-                    <img src="assests/images/projects-section/5.jpg"
+                <article class="newsletter-section">
+                    <img class="projects-image" src="assets/images/projects-section/5.jpg"
                         alt="dashcoin">
                     <div class="fill">
-                        <h3 class="gray">Purify</h3>
+                        <h3 class="grey">Purify</h3>
                         <h5>UI/UX Design</h5>
                     </div>
                     <a href="project.html" class="button-learn blue">Learn More</a>
                 </article>
-                <article class="box-section">
-                    <img src="assests/images/projects-section/6.jpg"
+                <article class="newsletter-section">
+                    <img class="projects-image" src="assets/images/projects-section/6.jpg"
                         alt="Vectorify">
                     <div class="fill">
-                        <h3 class="gray">CryptoPie</h3>
+                        <h3 class="grey">CryptoPie</h3>
                         <h5>App Development</h5>
                     </div>
                     <a href="project.html" class="button-learn blue">Learn More</a>
@@ -112,12 +113,12 @@
         </div>
     </section>
     <section id="questions">
-        <div class="box">
+        <div class="newsletter">
             <h2 class="grey">Do you have any questions?</h2>
             <h4 class="light-grey">Let us help you!</h4>
             <form action="/search" method="get">
-                <div class="email-btns">
-                    <img src="assests/images/newsletter/icon/mail.svg" alt="email">
+                <div class="email-btn">
+                    <img src="assets/images/newsletter/icon/mail.svg" alt="email">
                     <input type="email" placeholder="Enter your email">
                     <button type="submit">Subscribe</button>
                 </div>
@@ -125,8 +126,8 @@
         </div>
     </section>
     <footer id="footer">
-        <div class="box3">
-            <img class="image-logo" src="assests/images/logos/circle.svg" />
+        <div class="newsletter3">
+            <img class="image-logo" src="assets/images/logos/circle.svg" />
             <address class="light-grey">
                 2972 Westheimer Rd. Santa Ana,<br />Illinois 85486
             </address>
