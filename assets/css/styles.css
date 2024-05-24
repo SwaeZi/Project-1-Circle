@@ -503,12 +503,10 @@ h6 {
         justify-content: center;
         align-items: center;
         gap: 2vh;
-        /* border: 1px solid black; */
     }
 
     #footer img {
         width: 100px;
-        /* border: 1px solid black; */
     }
 
     address {
@@ -555,9 +553,10 @@ h6 {
         background-color: #072AC8;
         color: white;
         text-decoration: none;
-        padding: 15px 30px;
+        padding: 15px 20px;
         font-size: 17px;
         font-weight: 500;
+        white-space: nowrap;
     }
 
     /* Header Section*/
@@ -578,7 +577,6 @@ h6 {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        /* border: 1px solid red; */
     }
 
     .header {
@@ -713,7 +711,6 @@ h6 {
 #recent-projects h3, h5, a {
     margin: 10% 10% 10% 10%;
 }
-
 
 .projects-image {
     width: 100%;
