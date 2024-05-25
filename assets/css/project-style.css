@@ -71,6 +71,12 @@ h6 {
     font-weight: var(--font-weight-h6);
 }
 
+a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #514D67;
+}
+
 @media only screen and (max-width: 902px) {
 
     body {
@@ -103,7 +109,6 @@ h6 {
         width: 100vw;
         display: flex;
         justify-content: center;
-
     }
 
     .menu-container {
@@ -127,7 +132,6 @@ h6 {
         width: 15%;
         display: flex;
         flex-direction: column;
-
     }
 
     #hamburger input {
@@ -158,7 +162,6 @@ h6 {
     #hamburger input:checked~label {
         background-color: lightgrey;
     }
-
 
     #hamburger label {
         height: 100%;
@@ -486,7 +489,6 @@ h6 {
         list-style: none;
         gap: 60px;
     }
-
 
     /* Main Section*/
 
