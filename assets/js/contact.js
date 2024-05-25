@@ -8,9 +8,8 @@
 
     if (name.toLowerCase() === "ironhack") {
       alert("You cannot be Ironhack, because I am Ironhack.");
-      nameInput.value = ""; // Clear the input field
+      nameInput.value = ""; 
     } else {
-      // Proceed with form submission
       this.submit();
     }
   });
