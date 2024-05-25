@@ -16,6 +16,6 @@ I'm a passionate web developer/mobile app developer with a knack for creating st
 [Visit the Deployed Site](https://circleagencybysteve.netlify.app/)
 
 ## Screenshots
-![Home Page](assets/screenshots/landingpage.png)
-![Project Page](assets/screenshots/projectpage.png)
-![Contact Page](assets/screenshots/contactuspage.png)
+![Home Page](./assets/images/screenshots/landingpage.png)
+![Project Page](./assets/images/screenshots/projectpage.png)
+![Contact Page](./assets/images/screenshots/contactuspage.png)
